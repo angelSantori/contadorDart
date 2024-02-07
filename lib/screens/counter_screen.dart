@@ -47,7 +47,7 @@ class _CounterScreenState extends State<CounterScreen> {
             },
           ),
           const SizedBox(
-            height: 5,
+            height: 10,
           ),
           CustomButton(
             icono: Icons.refresh_rounded,
@@ -58,7 +58,7 @@ class _CounterScreenState extends State<CounterScreen> {
             },
           ),
           const SizedBox(
-            height: 5,
+            height: 10,
           ),
           CustomButton(
             icono: Icons.exposure_minus_1,
