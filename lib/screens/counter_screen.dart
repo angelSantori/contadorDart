@@ -46,6 +46,9 @@ class _CounterScreenState extends State<CounterScreen> {
               });
             },
           ),
+          const SizedBox(
+            height: 5,
+          ),
           CustomButton(
             icono: Icons.refresh_rounded,
             onPressed: () {
@@ -53,6 +56,9 @@ class _CounterScreenState extends State<CounterScreen> {
                 contador = 0;
               });
             },
+          ),
+          const SizedBox(
+            height: 5,
           ),
           CustomButton(
             icono: Icons.exposure_minus_1,
